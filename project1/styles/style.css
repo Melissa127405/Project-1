@@ -20,3 +20,28 @@ h1 {
     margin: 50px;
     background-image: url(../images/background.jpg);
 }
+
+.Twila Fandom Page{
+    width: 500px; ;
+}
+
+p{
+    container-type: initial; 
+}
+
+.list-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
+
+h2,h3,h4 {
+    font-size: 2.25rem;
+    font-family: monospace;
+    font-style: oblique;
+}
