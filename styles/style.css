@@ -1,0 +1,47 @@
+body {
+    background-color: rgba(162, 66, 2, 0.937);
+}
+
+[type=text],[type=email]{
+    padding: 7px;
+}
+    
+h1 {
+    text-align: center;
+    font-family:metal+mania;
+}
+
+h1 {
+    font-size: 2.25rem;
+    display: inline-block;
+    padding: 20px;
+    width: 500px;
+    border: 5px solid olive ;
+    margin: 50px;
+    background-image: url(../images/background.jpg);
+}
+
+.Twila Fandom Page{
+    width: 500px; ;
+}
+
+p{
+    container-type: initial; 
+}
+
+.list-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
+
+h2,h3,h4 {
+    font-size: 2.25rem;
+    font-family: monospace;
+    font-style: oblique;
+}
