@@ -3,9 +3,6 @@ body {
 background-color: rgba(165, 65, 3, 0.448);
 }
 
-
-
-
 h1  {
     text-align: center;
     font-family:'metal mania';
@@ -13,17 +10,13 @@ h1  {
     display: inline-block;
     padding: 20px;
     width: 500px;
-    margin: 50px;
-  
-   
+    margin: 50px;  
 }
-
 
 p{
     container-type: initial;
     padding: 8px;
 }
-
 
 .header {
     text-align: center;
