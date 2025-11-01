@@ -41,6 +41,9 @@ p {
   
 }
 
+#baby {
+    border: 2px; 
+}
 
 footer {
         font-size: 1.5rem;
