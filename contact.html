@@ -10,9 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
 </head>
-</body>
-    <div class="d-flex justify-content-evenly">  
-    <ul class="nav nav-underline">
+  <header>
+    <ul class="nav nav-underline , d-flex justify-content-evenly"> 
       <li class="nav-item">
       <a class="nav-link home" aria-current="page" href="./index.html">Home</a>
       </li>
@@ -22,60 +21,58 @@
       <li class="nav-item">
       <a class="nav-link Twila's Favorite things" href="./lists.html">Twila's Favorite Things</a>
       </li>
-      <li class="nav-item">
-      <a class="nav-link exit" aria-disabled="true">Exit</a>
-      </li>
-    </ul>
-    </div>
+     </ul>
+    </header> 
+
     <main>
     <div class="d-flex justify-content-evenly"><h1>contact us</h1></div> 
-    <form action="#" method="get">
-    <div class="form-row">
+    <div>
+    <form action="#" method="get"></form>
+    <section class="form-row">
     <label>
         First Name 
       <input type="text" name="first name" id="first-name"/>
     </label> 
-    </div>
-    <div class="form-row">
-    <label for="last-name">
+  </section>
+  <section class="form-row">
+    <label> 
         Last Name:
       <input type="text" name="Last name" id="last-name"/>
     </label>  
-    </div>
-    <div class="form-row">
-    <label for="Dog's-name">
-        Dog's Name:
+    </section>
+    <section class="form-row">
+    <label> 
+        Dog's Name: 
       <input type="text" name="dog name" id="dog-name" required/>
     </label>
-    </div>
-    <section>
-      <div class="form-row">
+    </section>
+ <section class="form-row">
         <label for="Email">
          Email:
          <input type="email" name="Email" id="Email" required/>
         </label>
-      </div>
-    </div class="form-row">
-    <button type="submit" class="btn btn-info">Send</button>
-    </div>
-    </section>
-    <div class="d-flex">
-    <div class="flex-shrink-0">
-      <img
+</section>
+<section class="form-row">
+     <button type="button" class="btn btn-outline-primary">Submit</button>
+  </section>
+</div>
+
+    
+    <div class="flex-shrink-0 , d-flex"></div>
+      <img 
          src="./images/baby t.PNG" alt="3month old twila brindle puppy"
            height="200"
            class="baby-t"
            alt="Twila as a baby"/>
     </div>
-    <div class="flex-grow-1 ms-3">
+  </main>
+  <footer>
     </p>Twila is half german shepard and half golden retriever. She is a Gemini born 
         june 16th 2023. She loves to fetch , swim and hike. Twila lives in knoxville, Tn.
         and this page was made to share some of her local favorite spots as well 
         as the very best toys, chews and leashes/harness combos.Hope you enjoy all the 
         info, please share your email and dog's name to recive regular updates on 
         new places and finds in and around east tennesssee. </p> 
-    </div>
-    </div>
-  </main>
-</body> 
+   </footer>
+    </body> 
 </html>

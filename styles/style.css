@@ -3,7 +3,12 @@ body {
 background-color: rgba(165, 65, 3, 0.448);
 }
 
+.header {
+    text-align: center;
+}
+
 h1  {
+     background-color: rgba(73, 203, 186, 0.27);
     text-align: center;
     font-family:'metal mania';
     font-size: 3rem;
@@ -13,19 +18,33 @@ h1  {
     margin: 50px;  
 }
 
-p{
-    container-type: initial;
+h2,h3,h4 {
+      font-size: 2.25rem;
+      font-family: 'metal mania'
+}    
+
+p {
+    font-size: 1.5rem;
+    font-family: 'metal mania';
     padding: 8px;
 }
 
-.header {
-    text-align: center;
+.form-row {
+    font-family: fantasy;
+    font-display: fallback;
+    font-size: 1rem;
+    width: 75%;
+    margin: 10px auto;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: center;
+  
 }
 
-h2,h3,h4 {
-  font-size: 2.25rem;
-    font-family: 'metal mania'
-}    
 
-
+footer {
+        font-size: 1.5rem;
+        font-family: 'metal mania';
+        padding: 8px;
+}
 
